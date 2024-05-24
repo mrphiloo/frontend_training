@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Task Of the Day !!</h2>
+    <h4>STUDENT REGISTRATION FORM</h4>
+    <form action="#"> <!--Action: Ask URL that link ro BE: Store form data in DB-->
+        <div>
+            <label for=""> FIRST NAME </label>
+            <input type="text" maxlength="30" pattern="[a-zA-Z]+">
+        </div>
+        <div>
+            <label for=""> LAST NAME </label>
+            <input type="text">
+        </div>
+        <div>
+            <label for=""> DATE OF BIRTH  </label>
+            <input type="date">
+        </div>
+        <div>
+            <label for=""> EMAIL ID  </label>
+            <input type="email">
+        </div>
+        <div>
+            <label for="">GENDER</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="">ADDRESS</label>
+            <input type="text" name="" id="">
+        </div>
+        <div>
+            <label for="">CITY</label>
+            <input type="text" name="" id="">
+        </div>
+        <div>
+            <label for="">PIN CODE</label>
+            <input type="number" name="" id="">
+        </div>
+        <div>
+            <label for="">STATE</label>
+            <input type="text" name="" id="">
+        </div>
+        <div>
+            <span> COUNTRY </span>
+                <select name="" id="">
+                    <option value="" selected>India</option>
+                    <option value="">US</option>
+                    <option value="">China</option>
+                    <option value="">Italy</option>
+                </select>         
+        </div>
+        <div>
+            <label for="">HOBBIES</label>
+            <label for="draw">Drawing</label>
+            <input type="checkbox" name="" id="draw">
+            <label for="sing">Singing</label>
+            <input type="checkbox" name="" id="sing">
+            <label for="dance">Dancing</label>
+            <input type="checkbox" name="" id="dance">
+            <label for="sketch">Skecting</label>
+            <input type="checkbox" name="" id="sketch">
+            <label for="others">Others</label>
+            <input type="checkbox" name="" id="others">
+            <input type="text" id="others">
+        </div>
+        <div>
+            <span>QUALIFICATION</span>
+            <table>
+                <tr>
+                    <th>Si.No</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>CLASS X</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>CLASS XII</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <label for="">COURSES APPLIED FOR</label>
+            <label for="bca">B.CA</label>
+            <input type="radio" name="course" id="bca">
+            <label for="bcom">B.Com</label>
+            <input type="radio" name="course" id="bcom">
+            <label for="bsc">B.Sc</label>
+            <input type="radio" name="course" id="bsc">
+            <label for="ba">B.A</label>
+            <input type="radio" name="course" id="ba">
+        </div>
+        <div>
+            <input type="submit">
+            <input type="reset" name="" id="">
+        </div>
+
+
+    </form>
+    
+</body>
+</html>
